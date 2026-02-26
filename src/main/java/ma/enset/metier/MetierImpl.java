@@ -2,14 +2,14 @@ package ma.enset.metier;
 
 import ma.enset.dao.IDao;
 
-public class IMetierImpl implements IMetier {
+public class MetierImpl implements IMetier {
     private IDao dao; //couplage faible
 
-    public IMetierImpl(IDao dao) {
+    public MetierImpl(IDao dao) {
         this.dao = dao;
     }
 
-    public IMetierImpl() {
+    public MetierImpl() {
     }
 
     @Override
