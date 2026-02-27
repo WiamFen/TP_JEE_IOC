@@ -1,2 +1,2 @@
-ma.enset.dao.DaoImpl
+ma.enset.ext.DaoImplV2
 ma.enset.metier.MetierImpl
