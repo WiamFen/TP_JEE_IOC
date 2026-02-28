@@ -1,8 +1,12 @@
 package ma.enset.metier;
 
 import ma.enset.dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component("metier")
 public class MetierImpl implements IMetier {
+    @Autowired
     private IDao dao; //couplage faible
 
     public MetierImpl(IDao dao) {
